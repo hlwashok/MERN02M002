@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+}
+
+#head2{
+    background-color: blueviolet;
+}
+
+.head3{
+    background-color: chocolate;
+}
+h4,h5,h6{
+    background-color: cyan;
+}
+p{
+    font-size: 1.3rem;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(129, 121, 56);
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/ed/30/0e/ed300eb4af53d767f8ea934a572aec9a.jpg);
+}
