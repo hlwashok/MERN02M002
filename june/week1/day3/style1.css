@@ -49,7 +49,7 @@ body {
 
 .left {
   flex: 1;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .badge {
@@ -362,7 +362,7 @@ body {
 
 .pricing-section {
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 90px;
 }
 
 .tag,
@@ -455,59 +455,62 @@ body {
 
 /* CTA section */
 
-.cta-section {
-  background: #1c1e26;
-  color: white;
-  padding: 50px 20px;
-  margin-top: 60px;
-  ;
+.box-wrapper {
+  background-color: #f8fafc;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
 }
 
-.cta-content {
-  max-width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items:left;
+.info-box {
+  background-color: #1e293b;
+  border-radius: 20px;
+  padding: 50px 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
 
-.cta-text h2 {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
-
-.cta-buttons {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-
- 
-}
-
-.btn-primary {
-  background: #47c97e;
+.info-title {
+  font-size: 28px;
+  font-weight: bold;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-left: 600px;
-  
-
+  margin-bottom: 14px;
 }
 
-.btn-secondary {
-  background: white;
-  color: #1c1e26;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
+.info-subtext {
+  font-size: 16px;
+  color: #94a3b8;
+  margin-bottom: 30px;
 }
+
+.info-buttons {
+  display: flex;
+  justify-content: flex-end;  
+  gap: 16px;
+}
+
+.btn-green {
+  background-color: #22c55e;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-white {
+  background-color: white;
+  color: #1e293b;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 
 /* page-5 */
 * {
